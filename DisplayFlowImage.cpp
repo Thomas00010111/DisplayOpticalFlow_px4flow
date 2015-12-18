@@ -57,7 +57,6 @@ void recImageCallback(const sensor_msgs::ImageConstPtr& msg)
     imshow(OPENCV_WINDOW, cflow);
 
     std::swap(gray_prev, gray);
-    waitKey(30);
 }
 
 
